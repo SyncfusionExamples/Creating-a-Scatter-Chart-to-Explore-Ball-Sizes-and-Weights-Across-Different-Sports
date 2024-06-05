@@ -21,8 +21,41 @@
     {
         public List<Model> Data { get; set; }
 
+        public ObservableCollection<Brush> PaletteBrushes { get; set; }
+
         public ViewModel()
         {
+
+            PaletteBrushes = new ObservableCollection<Brush>()
+            {
+                new SolidColorBrush(Color.FromArgb("#FF5733")), // Vibrant Red
+                new SolidColorBrush(Color.FromArgb("#33FF57")), // Bright Green
+                new SolidColorBrush(Color.FromArgb("#3357FF")), // Bright Blue
+                new SolidColorBrush(Color.FromArgb("#FF33A6")), // Hot Pink
+                new SolidColorBrush(Color.FromArgb("#33FFA5")), // Aquamarine
+                new SolidColorBrush(Color.FromArgb("#FFA533")), // Golden Orange
+                new SolidColorBrush(Color.FromArgb("#A533FF")), // Vivid Purple
+                new SolidColorBrush(Color.FromArgb("#FF5733")), // Vibrant Red
+                new SolidColorBrush(Color.FromArgb("#FFC300")), // Bright Yellow
+                new SolidColorBrush(Color.FromArgb("#DAF7A6")), // Light Green
+                new SolidColorBrush(Color.FromArgb("#FF6F61")), // Coral
+                new SolidColorBrush(Color.FromArgb("#6B5B95")), // Royal Purple
+                new SolidColorBrush(Color.FromArgb("#88B04B")), // Olive Green
+                new SolidColorBrush(Color.FromArgb("#FFB447")), // Orange
+                new SolidColorBrush(Color.FromArgb("#009688")), // Teal
+                new SolidColorBrush(Color.FromArgb("#F7CAC9")), // Rose Quartz
+                new SolidColorBrush(Color.FromArgb("#92A8D1")), // Serenity Blue
+                new SolidColorBrush(Color.FromArgb("#955251")), // Marsala
+                new SolidColorBrush(Color.FromArgb("#B565A7")), // Orchid
+                new SolidColorBrush(Color.FromArgb("#009DAE")), // Caribbean Blue
+                new SolidColorBrush(Color.FromArgb("#F0A07E")), // Peach
+                new SolidColorBrush(Color.FromArgb("#FF6F61")), // Coral
+                new SolidColorBrush(Color.FromArgb("#5B5EA6")), // Royal Blue
+                new SolidColorBrush(Color.FromArgb("#45B8AC")), // Turquoise
+                new SolidColorBrush(Color.FromArgb("#E15D44")), // Deep Orange
+                new SolidColorBrush(Color.FromArgb("#C39BD3")), // Lilac
+            };
+
             Data = new List<Model>();
 
             Data.Add(new Model { Weight = 23, Size = 3.96, Name = "Squash" });
