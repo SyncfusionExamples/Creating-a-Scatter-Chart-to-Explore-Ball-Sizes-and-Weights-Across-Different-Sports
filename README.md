@@ -19,7 +19,8 @@ The ShowMajorGridLines and ShowMinorGridLines properties control the visibility 
 
 The TooltipTemplate property allows users to define a custom layout and content for the tooltip. It specifies a data template that determines how the tooltip appears and what information it displays.
 
-![Bubble chart with customzised tooltip in MAUI Chart]()
+![Bubble chart with customzised tooltip in MAUI Chart](https://github.com/SyncfusionExamples/Creating-a-Bubble-Chart-to-Explore-Ball-Sizes-and-Weights-Across-Different-Sports/assets/154403270/18ead191-880d-402a-87ee-013f3f09d5e4)
+
 
 
 # Troubleshooting
