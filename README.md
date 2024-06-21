@@ -22,4 +22,4 @@ In this example, we will explore how to use [Syncfusion's .NET MAUI Cartesian Ch
 
 If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to a shorter name and build the project.
 
-For a step-by-step procedure, refer to the [different sports ball measurements blog]().
+For a step-by-step procedure, refer to the [different sports ball measurements blog](https://www.syncfusion.com/blogs/post/dotnet-maui-scatter-chart-sports-ball).
